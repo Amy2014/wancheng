@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.imageRotation{
+    height:640px;
+    width:580px;
+    overflow:hidden;  
+    position:relative;  
+    border:10px solid #eee;
+    margin:0 auto;
+    }
+
+.imageBox{
+    position:absolute; 
+    height:640px;
+    top:0px;
+    left:0px;
+    overflow:hidden;
+    }
+.imageBox img {
+    display:block;
+    height:640px;
+    width:580px;
+    border:none;
+    }
+.sec2{
+    position:absolute;
+    top:570px;
+    left:253px;
+    z-index:10;   
+}
+.sec2{
+    animation:myfirst 1s;
+    animation-iteration-count: infinite;
+    -moz-animation: myfirst 1s; /* Firefox */
+    -webkit-animation: myfirst 1s;  /* Safari 和 Chrome */
+    -o-animation: myfirst 1s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+}
+@keyframes myfirst{
+    0%{top:570px;}
+    100%{top:520px;}
+}
+-moz-@keyframes myfirst{
+    0%{top:5750px;}
+    100%{top:520px;}
+}
+-webkit-@keyframes myfirst{
+    0%{top:570px;}
+    100%{top:520px;}
+}
+-o-@keyframes myfirst{
+    0%{top:570px;}
+    100%{top:520px;}
+}
+.sec3{
+    position:relative;
+    top:50px;
+    right:-460px;
+    z-index:19;  
+}
+.text{
+    color:#fff;
+   font-size:20px;
+   font-weight:30;
+    width:50px;
+    display:none;
+}
+.text2{
+    color:#fff;
+    font-size:20px;
+    font-weight:30;
+    width:50px;
+}
